@@ -5462,7 +5462,7 @@
           }],
           "description": "Sets a session client value that can be retrieved with getClientData(). This method is used in a server side script that runs when a form is created.",
           "url": "https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=r_ScopedGlideSessionPutClientData_String_String",
-          "scope": "scopeDescriptor"
+          "scope": "Scoped"
         }]
       },{
         "text": "duration",
@@ -5540,15 +5540,6 @@
           }],
           "description": "Subtracts the specified duration from the current duration.",
           "url": "https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=r_ScopedGlideDurationSubtract_GlideDuration",
-          "scope": "Scoped"
-        },{
-          "name": "",
-          "parameters": [{
-            "name": "",
-            "values": []
-          }],
-          "description": "",
-          "url": "",
           "scope": "Scoped"
         }]
       },{
