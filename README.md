@@ -29,7 +29,7 @@
 | `g_menu` | [GlideMenu](https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideMenuAPI) | 
 | `g_user` | [GlideUser](https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideUserAPI) |
 | `ga` | [GlideAjax](https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideAjaxV3API) |
-| `gwd` | [GlideDialogWindow](https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideDialogWindowAPI) |
+| `gdw` | [GlideDialogWindow](https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideDialogWindowAPI) |
 
 
 **Version:** Jakarta
