@@ -7,7 +7,7 @@
     "servicenow",
     "autocomplete"
   ],
-  "repository": "https://github.com/Ruben1926/autocomplete-servicenow",
+  "repository": "https://github.com/rubenferrero/autocomplete-servicenow",
   "author": "Ruben Ferrero (http://rubenferrero.com)",
   "license": "MIT",
   "engines": {
