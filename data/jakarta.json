@@ -10,7 +10,7 @@
       "url": "https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=r_ScopedGlideSystemAddErrorMessage_Object",
       "scope": "Scoped"
     },{
-      "name": "addErrorMessage",
+      "name": "addInfoMessage",
       "parameters": [{
         "name": "message",
         "values": []

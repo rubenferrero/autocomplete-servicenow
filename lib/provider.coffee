@@ -1,4 +1,3 @@
-suggestions = require '../data/jakarta'
 module.exports =
   # This will work on JavaScript files, but not in js comments.
   selector: '.source.js'
@@ -13,8 +12,10 @@ module.exports =
   # This will be suggested before the default provider, which has a suggestionPriority of 1.
   suggestionPriority: 2
 
-  # Let autocomplete+ filter and sort the suggestions you provide.
-  filterSuggestions: true
+  # Do not let autocomplete+ filter and sort the suggestions you provide.
+  filterSuggestions: false
+
+  suggestions: []
 
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix, activatedManually}) ->
     validPrefixes = ['agg', #GlideAggregate
@@ -46,7 +47,7 @@ module.exports =
 
 
   findSuggestions: (prefix, filter) ->
-    matchingObjects = suggestions.filter (suggestion) =>
+    matchingObjects = @suggestions.filter (suggestion) =>
       suggestion.text.toLowerCase() == prefix.toLowerCase()
 
     matchingFunctions = matchingObjects[0].functions?.filter (func) =>
