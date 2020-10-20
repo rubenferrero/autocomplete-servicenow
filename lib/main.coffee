@@ -6,6 +6,6 @@ module.exports =
   config:
     snversion:
       type: 'string'
-      default: 'orlando'
-      enum: ['jakarta', 'london', 'madrid', 'newyork', 'orlando']
+      default: 'paris'
+      enum: ['newyork', 'orlando', 'paris']
       title: 'Servicenow Version'
