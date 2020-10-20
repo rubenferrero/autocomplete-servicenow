@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-servicenow",
   "main": "./lib/main",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Autocomplete+ Provider for Servicenow",
   "keywords": [
     "servicenow",
